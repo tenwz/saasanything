@@ -1,65 +1,24 @@
 <p align="center">
-  <img src="assets/logo.svg" width="132" alt="Kakashi logo">
+  <img src="assets/logo.svg" width="96" alt="Kakashi">
 </p>
 
 <h1 align="center">Kakashi</h1>
 
-<p align="center">
-  <strong>拷贝忍者 —— 把任何 SaaS，甚至任何人的在线业务，clone 一遍。</strong>
-</p>
+<p align="center">把任何 SaaS，甚至任何人的在线业务，clone 一遍。</p>
 
-<p align="center">
-  <code>saasanything</code> 是仓库名，<code>Kakashi</code> 是它的名字。
-</p>
+仓库名 `saasanything`，项目名 `Kakashi`。
 
----
+## 状态
 
-## 是什么
+初始化阶段，暂无可用代码。
 
-看到一个跑得通的在线业务，把它拆到可以复刻的程度，再用更低的成本重新做一遍。
-
-不限品类、不限形态，也不限于 SaaS —— 任何跑在线上的生意，都可以被理解、拆解、复刻。
-
-## 要解决的问题
-
-线上生意的门槛，正在从「怎么做」变成「做什么」。
-
-技术实现越来越便宜，真正值钱的是被市场验证过的需求、产品和商业模式。与其从零猜一个需求，不如先找到一个已经在赚钱的业务，把它完整地理解一遍 —— 换一个市场、换一个人群、换一种交付方式。
-
-## 工作方式
-
-| 阶段 | 输入 | 输出 |
-| --- | --- | --- |
-| 探测 | 一个在线业务（官网 / 定价页 / 产品流程） | 它在卖什么、卖给谁、怎么收钱 |
-| 拆解 | 上一步的公开信息 | 产品形态、商业模式、关键功能清单 |
-| 复刻 | 拆解结果 | 一个能跑起来的最小可用版本 |
-| 验证 | 复刻出的产品 | 上线、度量、迭代或放弃 |
-
-## 项目状态
-
-🚧 **初始化阶段（2026-10）** —— 品牌、素材和仓库骨架已就位，核心能力尚未开始实现。
-
-- [x] 项目初始化、品牌与 Logo
-- [ ] 业务拆解方法论（如何判断一个 SaaS 值不值得复刻）
-- [ ] 复刻工具链
-- [ ] 第一个可运行的复刻样例
-- [ ] 上线与验证模板
-
-## 仓库结构
+## 结构
 
 ```
-.
-├── assets/                 # 品牌素材
-│   ├── logo.svg            # Logo（矢量，可任意缩放）
-│   └── social-preview.png  # 社交预览图 1280×640
-├── README.md
-└── LICENSE
+assets/logo.svg           # Logo
+assets/social-preview.png # 社交预览图
 ```
-
-## 相关项目
-
-- [beinfluencer](https://github.com/tenwz/beinfluencer) — 让任何账号，在任何平台，成为 influencer。
 
 ## License
 
-[MIT](LICENSE) © 2026 tenwz
+[MIT](LICENSE)
